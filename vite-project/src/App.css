@@ -1,0 +1,114 @@
+.heading{
+  color: white;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+}
+
+
+
+.inputF{
+  background-color: #292929;
+  border: 1px solid #3e3e3e;
+  border-radius: 8px;
+  color: #fff;
+  padding: 14px 24px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 12px 14px;
+  cursor: pointer;
+}
+
+.inputF:hover {
+  border: 1px solid #fff;
+}
+
+.form-container {
+  width: 100%;
+  background: linear-gradient(#212121, #212121) padding-box,
+              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column; /* Adjusted to column layout */
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.form-container input,
+.form-container button {
+  margin-top: 10px; 
+}
+
+.form-container .form-submit-btn {
+
+  font-family: inherit;
+  color: #717171;
+  font-weight: 600;
+  background: #313131;
+  border: 1px solid #414141;
+  padding: 12px 16px;
+  font-size: inherit;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+
+.todo-list-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background: #717171;
+  border-radius: 25px;
+  min-width: 200px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid #414141;
+  font-size: 18px;
+}
+
+.btn {
+  font-family: inherit;
+  color: #717171;
+  font-weight: 600;
+  background: #313131;
+  border: 1px solid #414141;
+  padding: 3px 8px;
+  margin: 2px 6px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
